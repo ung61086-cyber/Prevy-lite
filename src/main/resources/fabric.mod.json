@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "prevylite",
+  "version": "${version}",
+  "name": "Prevy Lite",
+  "description": "Visual/HUD client: module system, ClickGUI, HUD, Zoom, Fullbright.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.mrdon.client.LiteClient"] },
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "1.21.11", "java": ">=21", "fabric-api": "*" }
+}
